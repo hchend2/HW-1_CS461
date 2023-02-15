@@ -1,0 +1,14 @@
+the code consist of four deferent files, the mem.c where the code to 
+manipulate memory is writen, the str.c file where the code to manipulate strings is 
+writen, the memstrprint.h which the header file in which all the declaration are made, the printf.c file where the printf function in implemented, and the 
+test.c file where the above write files are tested. it also has a Makefile which 
+content rules on how to run the program and get output.
+
+
+make: will compile the code and generate an executable file.
+./a.test: run the executable show to output of the code if any
+make test: compile all the code and run the executable right away and output 
+result to sdtoutput.
+make clean: remove all the abject files
+make fclean remove all the object files and other binary files that may have 
+been generated
